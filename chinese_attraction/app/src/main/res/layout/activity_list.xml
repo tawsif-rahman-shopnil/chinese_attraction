@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top"
+        android:text="@string/app_name"
+        android:fontFamily="@font/karak"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="Scrollable content">
+
+        <LinearLayout
+            android:id="@+id/itemContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bar"
+        android:text=" 20172520- TOHA SHEIKH MOHAMMAD  "
+        android:fontFamily="@font/bbi"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+</LinearLayout>

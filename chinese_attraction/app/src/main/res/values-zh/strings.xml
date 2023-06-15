@@ -1,0 +1,6 @@
+<!-- values-zh/strings.xml -->
+<resources>
+    <string name="app_name">中国景点</string>
+    <string name="title_activity_landing">主页</string>
+    <!-- Add translations for other strings -->
+</resources>
